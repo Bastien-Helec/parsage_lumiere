@@ -1,0 +1,1 @@
+### Le projet va permettre de parser l'emploi du temps Umontepllier dans le but de creer des rappels , et de pouvoir allumer une lumiere connecter en fonction des preferences utlisateur

@@ -1,0 +1,61 @@
+## Helec Bastien 
+---
+# Compte rendu du projet de Parsage et Lumière
+
+---
+## 2022-11-16 09:02:00 :
+
+j'ai pu faire des tests specifiques , le beautiful_parse_test1.py et une ebauche que j'avais faite de ce que j'avais compris sur beautiful soup et requests hors il me manquer quelque information que j'ai corrigé sur beautiful_parse_test2.py.
+
+- beautiful_parse_test1.py :
+permet de recuperer les informations et d'afficher sans les balises on peut voir uniquement les informations presents dans l'html 
+
+- beautiful_parse_test2.py :
+permet de recuperer le code source de la page et de l'afficher dans un fichier html et de l'ecrire dans une fichier. 
+
+## Probleme :
+Le probleme actuelle que je rencontre est un probleme de connexion avec umontpellier , je dois trouver comment me connecter a umontpellier pour pouvoir recuperer les informations de la page et les afficher dans un fichier html le planning de la semaine.
+
+
+## Solutions :
+1- envoyé par le biais de python la connexion comme une connection Mysql des logins et des identifiants , problemes mot de passe en clairs 
+2- utilisée les cookies du sites pour la connexion (utilisée via python) probleme besoin de se loguer a chaque vidage de cache du navigateur 
+
+src utilisée : 
+connexion : 
+https://www.developpez.net/forums/d387253/autres-langages/python/reseau-web/probleme-d-identification-site-web-via-python/
+https://openclassrooms.com/forum/sujet/recuperer-contenu-d-une-page-web-apres-connexion
+
+parsage :
+urlilib : 
+https://docs.python.org/fr/3.8/howto/urllib2.html#fetching-urls
+https://stackoverflow.com/questions/23707647/parsing-html-page-containing-using-python
+
+beautiful soup :
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+https://thewebdev.info/2021/10/21/how-to-extract-text-from-html-file-using-python/
+https://zestedesavoir.com/billets/2057/scraper-des-donnees-sur-une-page-web-en-python-avec-beautifulsoup-1/
+
+Requests : 
+https://requests.readthedocs.io/en/stable/
+
+
+
+## 21/11/2022 12:08:00 :
+
+Aujourd'hui j'ai pu trouver avec l'aide de developpez.com que le module client form n'exister plus et que urllib2 n'etait plus utilisable donc il a fallut trouver la nouvelle documentation de urllib3, je n'ai pas toucher au fonction beautifull soup car la actuellement je cherche uniquement a m'authentifier (authentifmontpellier est un code qui n'est pas terminer) donc je n'ai pas tester l'authentifmontpellier2 car j'ai quelque information a changer pour pouvoir etre sur que ça fonctionne
+
+## Probleme :
+toujours le meme ça na pas avancé
+
+## Solutions :
+en recherche ... 
+
+src utilisée :
+https://www.developpez.net/forums/d387253/autres-langages/python/reseau-web/probleme-d-identification-site-web-via-python/
+
+doc mechanize:
+https://mechanize.readthedocs.io/en/latest/search.html?q=parseresponse&check_keywords=yes&area=default
+
+doc urllib3:
+https://urllib3.readthedocs.io/en/latest/user-guide.html
