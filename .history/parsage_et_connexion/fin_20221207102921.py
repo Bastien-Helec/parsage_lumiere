@@ -1,0 +1,32 @@
+import os 
+import csv
+import requests
+from urllib.request import *
+from bs4 import *
+import mechanize
+import urllib3
+
+#connexion 
+# authentification visuelle
+url = "https://cas.umontpellier.fr/cas/login?service=https://ent.umontpellier.fr/uPortal/Login"
+login = "bastien.helec@etu.umontpellier.fr"
+password = "72iutJrs80po$i!?"
+
+# la requete et reponse de la page
+
+browser = mechanize.Browser()
+browser.open(url)
+browser.select_form(nr = 0)
+browser.form['username'] = login
+browser.form['password'] = password
+browser.submit()
+browser.response().read()
+
+#recuperation des donnees
+requet=requests.get("http://www.perdu.com")
+pag=requet.content
+soup=BeautifulSoup(pag, "html.parser")
+print(soup)
+f1=open("ah.html", "w", encoding="utf-8")
+f1.write(str(soup))
+f1.close()

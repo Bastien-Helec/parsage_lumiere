@@ -68,23 +68,4 @@ NB: authentifmontpellier2 ne fonctionne pas
 
 ## 07/12/2022 10:21:00 :
 
-Aujourd'hui j'ai reussi a me connecter au site via le module mechanize qui regroupe le module urllib2 a l'interieur, j'ai pu utilisé les raccourcis browser dans le but de pouvoir me connecter sur l'umontpellier. 
-
-## Probleme :
-Permettre de faire a la suite la connexion et le parsage de la page
-
-## Solutions :
-imbriqué deux programmes dans le meme et faire un ordre de priorité quand connexion effectué passer au parsage (je pense faire avec des chiffres) 
-
-src utilisée :
-https://stackoverflow.com/questions/16598145/how-to-login-to-a-website-with-python-and-mechanize
-
-## 07/12/2022 10:57:00 :
-
-J'ai pu faire un programme complet hors quand je lance le programme
-
-## Probleme: 
-trop lent a la recuperation des informations 
-
-## Solutions :
-je vais essayer de faire un programme qui va chercher les liens un par un (passer a faire a la machine ce que fait l'humain sur le navigateur )
+Aujourd'hui j'ai reussi a me connecter au site via le module mechanize qui regroupe le module urllib2 a l'interieur, j'ai pu utilisé les raccourcis browser dans le but  

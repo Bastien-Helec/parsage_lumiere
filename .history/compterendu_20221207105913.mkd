@@ -83,8 +83,5 @@ https://stackoverflow.com/questions/16598145/how-to-login-to-a-website-with-pyth
 
 J'ai pu faire un programme complet hors quand je lance le programme
 
-## Probleme: 
-trop lent a la recuperation des informations 
-
-## Solutions :
+## Probleme :
 je vais essayer de faire un programme qui va chercher les liens un par un (passer a faire a la machine ce que fait l'humain sur le navigateur )
