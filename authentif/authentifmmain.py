@@ -4,7 +4,7 @@ from authentif_lib import *
 # authentification visuelle
 url = "https://cas.umontpellier.fr/cas/login?service=https://ent.umontpellier.fr/uPortal/Login"
 login = "bastien.helec@etu.umontpellier.fr"
-password = "72iutJrs80po$i!?"
+password = ""
 
 # la requete et reponse de la page
 
