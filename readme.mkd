@@ -1,1 +1,3 @@
 ### Le projet va permettre de parser l'emploi du temps Umontepllier dans le but de creer des rappels , et de pouvoir allumer une lumiere connecter en fonction des preferences utlisateur
+
+# Information , le projet ne verra pas le jours car je ne fais plus partie de la formations qui me permettais de réaliser tout ça mon travail reste néanmoins accessible
